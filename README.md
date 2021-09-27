@@ -1,7 +1,7 @@
-# da-salary-project
+# Google Job Search Data Analysis.
 
 ### Purpose:
-Repo for the data analysis salary prediction for Data Oriented Jobs.
+Repo for the data analysis and data science trending skills for Data Oriented Jobs.
 
 ### Use:
 In order to do your own search just change the url based on your own search and run the script.  
