@@ -62,7 +62,7 @@ def connect_and_parse():
 
     # connect to the site
     url = "https://www.google.com/search?q=data+analyst+jobs&oq=data+sc&aqs=chrome.0.69i59l2j0i433i457j69i59j69i57j69i61l2j69i60.1954j1j1&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwioy4DD3I_uAhVWhlwKHXWZDPAQutcGKAB6BAgFEAQ&sxsrf=ALeKk01QJ1N0hCq5E4yNdSVpAocamk9jcA:1610225255727#fpstate=tldetail&htivrt=jobs&htitab=&htidocid=Le_22Gz0nueNDvVuAAAAAA%3D%3D"
-    # url = "https://www.google.com/search?q=data+scientist+USA&oq=data+scientist+jobs&aqs=chrome..69i57j0i433i457j0i402l2j0i395l4.3309j1j1&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi9557CpvjtAhVKUMAKHaRHBtgQutcGKAB6BAgDEAQ&sxsrf=ALeKk00B6n8gIck0u29yarMEgr_UT9CMhw:1609420484628#htivrt=jobs&htidocid=JJ-VDq0HcUDG-ZDNAAAAAA%3D%3D&fpstate=tldetail"
+    #url = "https://www.google.com/search?q=data+scientist+USA&oq=data+scientist+jobs&aqs=chrome..69i57j0i433i457j0i402l2j0i395l4.3309j1j1&sourceid=chrome&ie=UTF-8&ibp=htl;jobs&sa=X&ved=2ahUKEwi9557CpvjtAhVKUMAKHaRHBtgQutcGKAB6BAgDEAQ&sxsrf=ALeKk00B6n8gIck0u29yarMEgr_UT9CMhw:1609420484628#fpstate=tldetail&htivrt=jobs&htidocid=eaEAKiT_pHnjJGlAAAAAAA%3D%3D"
     result = requests.get(url, headers=headers, params=params)
 
     # check if connection was made properly
