@@ -16,3 +16,4 @@ data['Apache'] = data['job_description'].apply(lambda x: 1 if 'spark' in x.lower
 #parsing the posted_time
 
 data.to_csv('jobs_data_cleaned.csv', index=False)
+test = pd.read_csv('jobs_data_cleaned.csv')
