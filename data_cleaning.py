@@ -14,3 +14,5 @@ data['Database'] = data['job_description'].apply(lambda x: 1 if 'database' in x.
 data['Apache'] = data['job_description'].apply(lambda x: 1 if 'spark' in x.lower() else 0)
 #data['r_studio'] = data['job_description'].apply(lambda x: 1 if 'r-studio' in x.lower() else 0)
 #parsing the posted_time
+
+data.to_csv('jobs_data_cleaned.csv', index=False)
